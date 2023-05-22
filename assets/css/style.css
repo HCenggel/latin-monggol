@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'monggol';
+    src: url('../font/mfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.table {
+    text-align: center;
+    width: 100%;
+}
+
+.table td, .table th {
+    padding: 15px 0;
+    font-size: 22px;
+    border: 1px solid #333;
+}
+
+.monggol {
+    font-size: 40px !important;
+    -webkit-writing-mode: vertical-lr;
+    -webkit-text-orientation: sideways-right;
+    writing-mode: tb-lr;
+    -ms-writing-mode: vertical-lr;
+    text-orientation: sideways-right;
+    font-family: 'monggol';
+    text-align: left;
+}
+
+.turul_hohiyahu {
+    font-size: 22px;
+    text-align: center;
+}
