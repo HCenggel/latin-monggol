@@ -1,0 +1,10 @@
+.list { display: flex; /*flex-wrap: wrap;*/
+    li { float: left; border: 1px solid #999;
+        div { text-align: center; height: 50px; border-bottom: 1px solid #999;}
+    }
+}
+#fontMain { display: flex;
+    > div { width: 50%; box-sizing: border-box; padding: 20px;
+        textarea { display: block; width: 100%; height: 600px;}
+    }
+}
