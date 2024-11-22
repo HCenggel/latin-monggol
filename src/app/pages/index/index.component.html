@@ -1,3 +1,30 @@
+<main style="padding: 20px;">
+    <ul class="list2">
+        @for (item of list; track item) {
+            <li>
+                @for (citem of item; track citem) {
+                    <div class="list2_item">
+                        <div class="mg2">{{ citem[0] }}</div>
+                        <div>{{ citem[1] }}</div>
+                    </div>
+                }
+            </li>
+        }
+    </ul>
+    <div style="height: 20px;"></div>
+    <ul class="list2">
+        @for (item of list2; track item) {
+            <li>
+                <div class="list2_item">
+                    <div class="mg2">{{ item[0] }}</div>
+                    <div>{{ item[1] }}</div>
+                </div>
+            </li>
+        }
+    </ul>
+</main>
+
+<!--
 <ul class="list">
     <li *ngFor="let item of egesig">
         <div class="mg" style="font-size: 40px;">{{ item[0] }}</div>
@@ -25,3 +52,4 @@
         </div>
     </div>
 </main>
+-->
